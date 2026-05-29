@@ -185,23 +185,31 @@ IMAGE PROMPT
 
 **КУЛЬМИНАЦИОННЫЙ МОМЕНТ:** [одно предложение из текста — дословно]
 
+**МЕСТО:** [локация из текста — где происходит сцена]
+
 **ВЫБРАТЬ ОДНУ КОМПОЗИЦИЮ (менять каждый раз):**
 
-A — ЛИЦОМ К ЛИЦУ: extreme close-up two-shot, faces nose-to-nose, both faces 80% of frame,
-B — ЧЕРЕЗ ПЛЕЧО: over-the-shoulder medium shot, woman sharp in foreground, man's face past her shoulder,
-C — СВЕРХУ ВНИЗ: medium shot from above, woman over seated man, her shadow across his face,
-D — ОДНО ЛИЦО + СИЛУЭТ: extreme close-up single face, razor sharp, other figure as blurred silhouette,
-E — ШИРОКИЙ ПЛАН: wide shot, figures at opposite ends, heavy negative space between them,
+A — ЛИЦОМ К ЛИЦУ: wide shot two-shot, faces tense, full environment visible behind them,
+B — ЧЕРЕЗ ПЛЕЧО: wide shot over-the-shoulder, woman sharp in foreground, full street/yard behind,
+C — СВЕРХУ ВНИЗ: wide shot from above, figures small against large environment, shadow pattern on ground,
+D — ОДНО ЛИЦО + СРЕДА: wide shot single figure, razor sharp face, full location stretching behind,
+E — ШИРОКИЙ ПЛАН: cinematic wide shot, figures at opposite ends, city/park/yard fills the frame,
 
-**Добавить:**
-woman [возраст] — [деталь из сцены], man [возраст] — [деталь из сцены],
+**Добавить обязательно:**
+woman [возраст] — [деталь из сцены],
+man [возраст] — [деталь из сцены],
 every muscle tension visible, red-rimmed eyes,
-[место] + [предмет-якорь],
-harsh direct light, hard shadows, Slavic features, photorealistic,
-no AI glow, no filters, no CGI
+[место из текста] + [предмет-якорь],
+
+**Качество и свет:**
+dramatic side-light, hard shadows one side, bright rim light other side,
+4K ultra sharp, hyper-detailed, every texture visible,
+skin pores, fabric threads, depth of field,
+no motion blur, tack sharp focus,
+Slavic features, photorealistic, RAW photo quality,
+no AI glow, no filters, no CGI, no painting style
 
 **Ротация:** История 1→A · 2→B · 3→C · 4→D · 5→E · 6→A
-
 ---
 
 ## САМОПРОВЕРКА (7 пунктов)
