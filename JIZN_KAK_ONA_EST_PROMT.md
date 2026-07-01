@@ -1,7 +1,6 @@
 # МЕГА-ПРОМТ — Канал "Жизнь как она есть"
 
 > Единый промт для генерации контента. Принимает ЗАГОЛОВОК → выдаёт готовый результат.
-> Формат вывода: ЗАГОЛОВОК + ФОТОПРОМТ + HIKOYA + ОПИСАНИЕ
 
 ---
 
@@ -15,7 +14,7 @@
 
 # КАК РАБОТАТЬ
 
-Я пишу тебе ТОЛЬКО ЗАГОЛОВОК (тему). Ты ничего не спрашиваешь, ничего не объясняешь, не показываешь шаги. Сразу выдаёшь готовый результат в формате ниже.
+Я пишу тебе ТОЛЬКО ЗАГОЛОВОК (тему). Ты ничего не спрашиваешь, ничего не объясняешь, не показываешь шаги. Сразу начинаешь писать и выдаёшь готовый результат СТРОГО в формате ниже.
 
 ---
 
@@ -31,7 +30,7 @@
 ## 2. Создай внутренние таблицы (не показывай)
 - **Персонажи:** имя, возраст, роль, черта характера, речевой маркер (макс 4–5 человек)
 - **Хронология:** все временны́е метки
-- **Эмоции для фото:** определи главную эмоцию каждого персонажа
+- **Эмоции для фото:** определи главную эмоцию каждого персонажа из списка: ГНЕВ (ҚАҲР), ЯРОСТЬ (ҒАЗАБ), РАЗДРАЖЕНИЕ (ЖАҲЛ), УДИВЛЕНИЕ/ШОК (ҲАЙРАТЛАНИШ)
 
 ## 3. Напиши HIKOYA (рассказ)
 Следуй всем правилам стиля (см. ниже)
@@ -181,9 +180,9 @@
 - Раскрывает суть (не кликбейт)
 - Без сенсационности
 - Создаёт любопытство
-- Длина: 40–80 символов
-- Часто содержит прямую речь персонажа: «— Цитата, — сказал кто-то»
-- Можно использовать формат: «Действие. Реакция» или «Ситуация: последствие»
+- **Длина: строго 6–12 слов (не меньше, не больше)**
+- Часто содержит прямую речь персонажа
+- Можно использовать формат: «— Цитата, — сказал кто-то» или «Действие. Реакция»
 
 ---
 
@@ -192,15 +191,27 @@
 После написания рассказа создай ОДИН готовый промпт для Gemini / Flow на английском языке.
 
 ## КЛЮЧЕВОЕ ПРАВИЛО:
-**Сколько персонажей участвует в ключевой сцене рассказа — столько и изображается на фото.** Каждый персонаж получает СВОЮ чёткую эмоцию.
+**Сколько персонажей участвует в ключевой сцене рассказа — столько и изображается на фото.** Каждый персонаж получает СВОЮ чёткую эмоцию из 4 основных:
 
-## Что анализировать (внутри, не показывай):
-1. Сколько главных персонажей в ключевой сцене (максимум 3)
-2. Каждый персонаж: пол, возраст, ТОЧНАЯ эмоция, поза, что держит в руках
-3. ТОЧНОЕ ВЫРАЖЕНИЕ ЛИЦА каждого
-4. Место действия: кухня / спальня / коридор / гостиная / улица
-5. Время: день (светлое помещение)
-6. Атмосфера: драма / конфликт / обида / предательство
+### 4 ОСНОВНЫЕ ЭМОЦИИ ПЕРСОНАЖЕЙ:
+
+**1) ҚАҲР (ГНЕВ / ХОЛОДНОЕ ПРЕЗРЕНИЕ):**
+- ТЕЛО: arms crossed tightly over chest, chin raised defiantly, jaw clenched, lips pressed into thin line
+- ЛИЦО: cold hard stare with narrowed eyes, furrowed brows pulled together, nostrils slightly flared, jaw muscles visibly tense, expression of icy contempt and absolute refusal
+
+**2) ҒАЗАБ (ЯРОСТЬ / КРИК / БЕШЕНСТВО):**
+- ТЕЛО: leaning forward aggressively, finger pointing, body tense, veins visible on neck
+- ЛИЦО: mouth open mid-shout, eyes wide with rage, face flushed red, brows furrowed deeply, expression of explosive uncontrolled anger and fury
+
+**3) ЖАҲЛ (РАЗДРАЖЕНИЕ / ЗЛОСТЬ / ОБИДА):**
+- ТЕЛО: shoulders pulled inward or one hand on hip, jaw tight, posture rigid
+- ЛИЦО: eyes narrowed with irritation, lips pursed tightly, slight sneer, nostrils flared, brows knit together, expression of deep annoyance mixed with suppressed hurt and resentment
+
+**4) ҲАЙРАТЛАНИШ (ШОК / УДИВЛЕНИЕ / РАСТЕРЯННОСТЬ):**
+- ТЕЛО: stepped back, hand over mouth or chest, body frozen mid-motion
+- ЛИЦО: mouth open in silent gasp, eyes extremely wide, eyebrows shot up high, pupils dilated, expression of genuine disbelief, shock and total surprise
+
+**ПРАВИЛО:** Эмоция читается с 2 метров. Лицо + тело + руки — всё вместе. Нейтральных выражений НЕТ. У каждого персонажа СВОЯ эмоция из 4-х выше.
 
 ## Формат изображения:
 - 1920x1080 px, горизонтальный 16:9
@@ -213,89 +224,42 @@
 - Almost overexposed highlights, very bright sunlight streaming through windows
 - **НЕТ** тёмных сцен, ночи, мрачной атмосферы
 
-## БИБЛИОТЕКА ЭМОЦИЙ (выбирай подходящие):
-
-**1) ГНЕВ / ХОЛОДНОЕ ПРЕЗРЕНИЕ:**
-- ТЕЛО: arms crossed tightly over chest, chin raised defiantly, jaw clenched, lips pressed into thin line
-- ЛИЦО: cold hard stare with narrowed eyes, furrowed brows pulled together, nostrils slightly flared, jaw muscles visibly tense, expression of icy contempt and absolute refusal
-
-**2) ОБИДА / БОЛЬ:**
-- ТЕЛО: shoulders pulled inward, arms hugging self, gaze averted downward
-- ЛИЦО: eyes glistening with unshed tears, trembling lower lip barely held together, brows raised in the center creating a pained arch, cheeks flushed, expression of deep emotional hurt and suppressed crying
-
-**3) ВИНА / ОПРАВДАНИЕ:**
-- ТЕЛО: one hand raised palm-out in explanatory gesture, leaning forward, slightly hunched
-- ЛИЦО: eyebrows raised high and pleading, eyes wide with guilt, forced apologetic half-smile, slight perspiration on forehead, expression of someone caught and desperately trying to explain
-
-**4) СТРАХ / НЕЛОВКОСТЬ:**
-- ТЕЛО: shoulders hunched, arms pulled close, clutching object tightly, slightly stepping back
-- ЛИЦО: eyes wide and darting, pupils dilated, mouth slightly open, color drained from face, expression of genuine fear mixed with uncertainty
-
-**5) ЗЛОСТЬ / КРИК:**
-- ТЕЛО: leaning forward aggressively, finger pointing, body tense
-- ЛИЦО: mouth open mid-shout, eyes wide with rage, face flushed red, expression of explosive uncontrolled anger
-
-**6) ШОК / РАСТЕРЯННОСТЬ:**
-- ТЕЛО: stepped back, hand over mouth or chest
-- ЛИЦО: mouth open in silent gasp, eyes extremely wide, eyebrows shot up, expression of genuine disbelief and shock
-
-**7) РЕШИМОСТЬ / ТВЁРДОСТЬ:**
-- ТЕЛО: standing straight, chin up, arms at sides or crossed
-- ЛИЦО: steady unwavering gaze, lips pressed firmly together, jaw set with determination, calm but immovable expression
-
-**ПРАВИЛО:** Эмоция читается с 2 метров. Лицо + тело + руки — всё вместе. Нейтральных выражений НЕТ.
-
 ## Расположение персонажей:
 - 1 персонаж → по центру, 3/4 кадра
-- 2 персонажа → один слева, один справа, лицом друг к другу или полу-отвернувшись
+- 2 персонажа → один слева, один справа, лицом друг к другу
 - 3 персонажа → равномерно по ширине кадра
+- 4+ персонажей → максимум 3 на фото (выбрать главных)
 
 ## Внешность:
 - Славянская / восточноевропейская внешность
-- Фотореализм, реальные люди (не куклы, не мультяшные)
+- Фотореализм, реальные люди
 - Одежда бытовая, домашняя или повседневная
 
 ## Технические параметры (всегда добавлять в конец промта):
-```
-photorealistic, extremely bright well-lit interior, high-key lighting, brilliant natural daylight, almost overexposed highlights, ultra detailed, sharp focus, 8K quality, vibrant colors, clear expressive faces, strong emotional tension between characters, no blur, no watermark, Slavic Eastern European appearance, no text, no letters, no words on image
-```
+photorealistic, extremely bright well-lit interior, high-key lighting, brilliant natural daylight, almost overexposed highlights, ultra detailed, sharp focus, 8K quality, vibrant colors, clear expressive faces, strong emotional tension between characters, no blur, no watermark, Slavic Eastern European appearance, no text, no letters, no words on image, 1920x1080, 16:9 horizontal
 
-## Negative prompt (всегда добавлять):
-```
-blurry, low quality, cartoon, anime, watermark, neutral expressions, emotionless faces, blank stares, dark image, dark shadows, night scene, dim light, text, letters, words, typography, captions, titles, writing on image
-```
+## Negative prompt (всегда добавлять отдельной строкой):
+Negative: blurry, low quality, cartoon, anime, watermark, neutral expressions, emotionless faces, blank stares, dark image, dark shadows, night scene, dim light, text, letters, words, typography, captions, titles, writing on image
 
 ---
 
-# ОПИСАНИЕ (для публикации)
+# ФОРМАТ ВЫВОДА — СТРОГО
 
-2–3 предложения, которые:
-- Интригуют читателя
-- Не раскрывают финал
-- Содержат вопрос или парадокс
-- Побуждают читать
+Показывай ТОЛЬКО в таком формате (без шагов, таблиц, верификации, пояснений):
 
----
-
-# ФОРМАТ ФИНАЛЬНОГО ВЫВОДА
-
-Показывай ТОЛЬКО следующее (без шагов, таблиц, верификации, пояснений):
-
----
-
-## 1) ЗАГОЛОВОК
-[Один лучший вариант — с прямой речью или интригой]
-
-## 2) ФОТОПРОМТ
-```
-[Один готовый промпт на английском для Gemini/Flow. Все персонажи из ключевой сцены с чёткими эмоциями]
+```title
+ЗАГОЛОВОК (6–12 слов — не меньше, не больше)
 ```
 
-## 3) HIKOYA
-[Полный текст рассказа — минимум 20 минут чтения. Развёрнутый сюжет с диалогами.]
+```image_prompt
+[Один готовый промпт на английском для Gemini/Flow. Все персонажи из ключевой сцены с чёткими эмоциями из 4-х: ҚАҲР, ҒАЗАБ, ЖАҲЛ, ҲАЙРАТЛАНИШ. В конце технические параметры и negative prompt.]
+```
 
-## 4) ОПИСАНИЕ
-[2–3 предложения для публикации]
+```story
+[Полный текст рассказа — минимум 20 минут чтения. Развёрнутый сюжет с диалогами. Без заголовка внутри — только текст истории.]
+```
+
+ОПИСАНИЕ: [2–3 предложения для публикации. Интригуют, не раскрывают финал, побуждают читать.]
 
 ---
 
@@ -308,6 +272,7 @@ blurry, low quality, cartoon, anime, watermark, neutral expressions, emotionless
 - Варианты заголовков
 - Любые пояснения и комментарии
 - Слово «конечно» и другие ИИ-вводные
+- Ничего кроме 4 блоков выше
 
 ---
 
@@ -317,10 +282,20 @@ blurry, low quality, cartoon, anime, watermark, neutral expressions, emotionless
 > Свекровь решила забрать внуков
 
 **Ты сразу выдаёшь:**
-1) ЗАГОЛОВОК
-2) ФОТОПРОМТ
-3) HIKOYA (полный рассказ)
-4) ОПИСАНИЕ
+
+```title
+— Внуки мои, а ты им никто, — заявила свекровь невестке
+```
+
+```image_prompt
+A photorealistic scene in an extremely bright well-lit living room... [полный промпт с персонажами и эмоциями]
+```
+
+```story
+[Полный текст рассказа 8000+ слов]
+```
+
+ОПИСАНИЕ: Когда свекровь пришла с документами из опеки, Марина поняла — это не просто угрозы. Но сдаваться без боя она не собиралась.
 
 ---
 
